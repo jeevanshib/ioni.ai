@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
-import Logo from '../../assets/logo.png';
-import Bars from '../../assets/bars.png';
+import Logo from '../../assets/logo.svg';
 import { Link } from 'react-scroll';
 const Header = () => {
 
@@ -20,45 +19,23 @@ const Header = () => {
       position: 'fixed'}}
           onClick={()=>setMenuOpened(true)}
           >
-            <img src={Bars} alt="" 
-            style={{width:'1.5rem',height:'1.5rem'}} />
           </div>
         ) : (
         <ul className='header-menu'>
-        
+        <div className="blur blur-f-2"></div>
         <li onClick={()=>setMenuOpened(false)}>
-          <Link
-          onClick={()=>setMenuOpened(false)}
-          to='home'
-        span={true}
-        smooth={true}
-          >Home</Link>
+          <Link>Features</Link>
         </li>
-        <li><Link
-        onClick={()=>setMenuOpened(false)}
-        to='programs'
-        span={true}
-        smooth={true}
-        >Programs</Link></li>
+        <li><Link>Resources</Link></li>
       <li><Link
         onClick={()=>setMenuOpened(false)}
         to='reasons'
         span={true}
         smooth={true}
-        >Why Us</Link></li>
-        <li><Link
-        onClick={()=>setMenuOpened(false)}
-        to='plan'
-        span={true}
-        smooth={true}
-        >Plans</Link></li>
+        >Pricing</Link></li>
+        <li><Link>FAQ</Link></li>
         
-        <li><Link
-        onClick={()=>setMenuOpened(false)}
-        to='Testimonials'
-        span={true}
-        smooth={true}
-        >Testimonials</Link></li>
+
     </ul>
     )}
       

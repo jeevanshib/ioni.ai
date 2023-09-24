@@ -1,7 +1,7 @@
 .Join{
     display: flex;
     padding: 0 2rem;
-    gap: 10rem;
+    gap: 30rem;
 }
 
 .left-j{
@@ -20,11 +20,17 @@
     margin: -10px 0;
 }
  .right-j{
-   
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: flex-end;
 } 
+.right-j>button{
+    padding: 2rem;
+    height: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 2px solid rgb(135, 54, 255);
+}
 .email-container{
     display: flex;
     gap: 3rem;

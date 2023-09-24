@@ -9,7 +9,7 @@
     gap: 2rem;
     flex-direction: column;
     text-transform: uppercase;
-    color: azure;
+    color: rgb(0, 0, 0);
 }
 
 .left-t>:nth-child(1){
@@ -48,7 +48,7 @@
 .right-t>:nth-child(1){
     position: absolute;
     width: 17rem;height: 20rem;
-    border: 2px solid orange;
+    border: 2px solid rgb(149, 0, 255);
     background-color: transparent;
     right: 9rem;
     top: 0.9rem;

@@ -24,10 +24,10 @@
 .category{
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     padding: 2rem;
     gap: 1rem;
-    color: azure;
+    color: rgb(0, 0, 0);
     justify-content: space-between;
 }
 

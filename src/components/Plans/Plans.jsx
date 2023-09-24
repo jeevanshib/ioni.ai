@@ -9,11 +9,11 @@ const Plans = () => {
         <div className='blur blur-p-1'></div>
         <div className='blur blur-p-2'></div>
         <div className="programs-header" style={{gap:'2rem'}}>
-            <span className='stroke-text'>READY TO START</span>
-            <span>YOUR JOURNEY</span>
-            <span className='stroke-text'>NOW WITH US</span>
+            <span className='stroke-text'>Pricing plans</span>
+            {/* <span>YOUR JOURNEY</span>
+            <span className='stroke-text'>NOW WITH US</span> */}
         </div>
-
+            
         {/* Plans Cards */}
 
         <div className="plans">
@@ -32,8 +32,8 @@ const Plans = () => {
                         ))}
                     </div>
 
-                    <div><span>See more benefits -{'>'} </span></div>
-                    <button className='btn'>Join Now</button>
+                    {/* <div><span>See more benefits -{'>'} </span></div> */}
+                    <button className='btn'>Free Trial</button>
                 </div>
             ))}
         </div>

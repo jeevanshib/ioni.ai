@@ -20,19 +20,16 @@ const Join = () => {
         <div className="left-j">
             <hr />
             <div>
-                <span className='stroke-text'>READY TO</span>
-                <span> LEVEL UP</span>
+                <span className='stroke-text'>Start your</span>
+                <span>  AI journey</span>
             </div>
             <div>
-                <span>YOUR BODY</span>
-                <span className='stroke-text'> WITH US?</span>
+                <span> with us!</span>
+                {/* <span className='stroke-text'> Today</span> */}
             </div>
         </div>
         <div className="right-j">
-            <form ref={form} className='email-container' onSubmit={sendEmail}>
-                <input type="text" name="user_email" placeholder='Enter Your Email to Join us' />
-                <button className='btn btn-j'>Join Us</button>
-            </form>
+        <button className='btn btn-j'>Join Us</button>
           
         </div>
     </div>

@@ -3,7 +3,7 @@ import './Footer.css';
 import Github from '../../assets/github.png';
 import Instagram from '../../assets/instagram.png';
 import LinkedIn from '../../assets/linkedin.png';
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/logo.svg'
 
 const Footer = () => {
   return (
@@ -18,6 +18,7 @@ const Footer = () => {
             <div className="logo-f">
             <img src={Logo} alt="" />
             </div>
+            <div className='tagline'>Boost your customer support productivity with ChatGPT-4</div>
         </div>
 
         <div className="blur blur-f-1"></div>

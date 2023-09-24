@@ -18,17 +18,31 @@
     display: flex;
     flex-direction: column;
     background-color: var(--caloryCard);
-    color: azure;
+    color: rgb(0, 0, 0);
     gap: 2rem;
     padding: 1.5rem;
     width: 15rem;
 }
 .plan:nth-child(2){
-    transform: scale(1.1);
+    transform: scale(1.2);
     background-color: var(--orange);
+    width: 20rem;
+    border-radius: 20px;
+
+}
+.plan:nth-child(1){
+    /* transform: scale(1.1); */
+    width: 20rem;
+    border-radius: 20px;
+    /* background-color: var(--orange); */
+}
+.plan:nth-child(3){
+    /* transform: scale(1); */
+    width: 25rem;
+    border-radius: 20px;
+    /* background-color: var(--orange); */
 }
 .plan>svg{
-    fill:orange;
     width: 2rem;
     height: 2rem;
 }
@@ -60,13 +74,33 @@
 .feature>img{
     width: 1rem;
 }
+.plans>:nth-child(1)>svg{
+    fill: white;
+}
 
 .plans>:nth-child(2)>svg{
+    fill: white;
+}
+.plans>:nth-child(3)>svg{
     fill: white;
 }
 
 .plans>:nth-child(2)>button{
     color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 5px;
+}
+.plans>:nth-child(1)>button{
+    /* color: rgb(255, 255, 255); */
+    border: 2px solid;
+    border-radius: 5px;
+    border: 2px solid var(--orange);
+
+}
+.plans>:nth-child(3)>button{
+    /* color: rgb(255, 255, 255); */
+    border: 2px solid var(--orange);
+    border-radius: 5px;
 }
 
 .blur-p-1{
